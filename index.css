@@ -1,0 +1,30 @@
+:root {
+  --bg-color: pink;
+  --primary-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+div.container {
+  background-color: var(--bg-color);
+}
+
+div.container h1 {
+  color: var(--primary-color);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+div.container p {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+div.container form {
+  border: 5px solid black;
+  // Top, Right, Bottom e Left
+  margin: 100px 50px 75px 100px;
+  padding: 100px 50px 75px 100px;
+}
